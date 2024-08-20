@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Hand:wght@400..700&family=Kalnia+Glaze:wght@100..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');@import url('https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Hand:wght@400..700&family=Kalnia+Glaze:wght@100..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+body{
+    background-color: rgb(63, 65, 64);
+    text-align: center;
+    color:rgb(73, 57, 57);
+    font-family: "Roboto", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+}
+h1{
+    border-top-style:solid ;
+    text-align: center;
+    font-variant: small-caps;
+    background-color: rgb(4, 43, 30);
+    font-family: "Poppins", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+    border-left: solid 14px transparent;
+    color: rgb(17, 16, 16);
+    font-weight: 900px;
+}
+h2{
+    background-color: rgb(18, 32, 18);
+    color: rgb(247, 236, 236);
+    text-align: left;
+    padding-left: 30%;
+}
+hr{
+    border-top: transparent;
+    border-right: transparent;
+    border-left: transparent;
+    border-bottom: 15px dotted rgb(54, 44, 44);
+    width: 44%;
+}
+.caja {
+    background-color: rgb(132, 218, 155);
+    
+    color: rgb(13, 14, 13);
+    padding: 45px;
+
+}
+footer{
+    text-align: left;
+}
+
