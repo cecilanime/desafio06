@@ -4,16 +4,19 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>desafio06_CeciliaCoronel-ToledoVictor</title>
+    <!-- <link rel="stylesheet" href="./css/estilos-retro.css">  -->
     <link rel="stylesheet" href="./css/estilos.css">
+    <!-- <link rel="stylesheet" href="./css/estilos.urbano.css"> -->
 </head>
 <body>
     <header>
-        <h1>veni al Gym!&#128170;</h1>
+        <h1>Veni al Gym!&#128170;</h1>
     </header>
     <main>
         <div class="caja">
            <form>
-                <h2><legend>&#128587; Datos Personales &#128064; </legend></h2>
+                <fieldset>
+                <legend>Datos Personales</legend>
                     <label for="nombre">Nombre*:</label><br>
                     <input type="text" id="nombre"><br>
                     <label for="apellido"> Apellido *:</label><br> 
@@ -35,41 +38,43 @@
                     <input type="radio" name="sexo" value="hombre" checked="checked">Hombre
                     <input type="radio" name="sexo" value="mujer" >Mujer
                     <input type="radio" name="sexo" value="otro" >Otro
-                  
+                </fieldset>  
             </form>
         </div>
             <hr>
          <div class="caja" >  
             <form>
-                <h2> <legend>&#x1F4F2; Datos de Contacto &#x1F4E7; </legend></h2>
-                <label for="telefono"> Teléfono:</label><br>
-                <input type="number" id="telefono" placeholder="Código de área y número"><br>
-                <label for="email"> Dirección de correo electrónico *:</label><br> 
-                <input type="email" id="email" placeholder="info@dominio.com" required><br>
-                
+                <fieldset>
+                    <legend>Datos de Contacto</legend>
+                    <label for="telefono"> Teléfono:</label><br>
+                    <input type="number" id="telefono" placeholder="Código de área y número"><br>
+                    <label for="email"> Dirección de correo electrónico *:</label><br> 
+                    <input type="email" id="email" placeholder="info@dominio.com" required><br>
+                </fieldset> 
             </form>
         </div>
             <hr>
             <div class="caja" >  
                 <form>
-                    <h2><legend> &#x1F6B4;Actividades &#x1F57A; </legend></h2>
-                    <p>Por favor, indicá cuáles actividades te interesan.</p>
-                    <h3> Sede Palermo:</h3>
-                        <input type="radio" name="deporte" value="Básquet">Basquet
-                        <input type="radio" name="deporte" value="Boxeo" checked="checked">Boxeo
-                        <input type="radio" name="deporte" value="Fútbol">Fútbol
-                        <input type="radio" name="deporte" value="Tenis" >Tenis
-                        <h3>Sede Rosario:</h3> 
+                    <fieldset>
+                        <legend>&#x1F6B4;Actividades &#x1F57A;</legend>
+                        <p>Por favor, indicá cuáles actividades te interesan.</p>
+                        <h3> Sede Palermo:</h3>
                             <input type="radio" name="deporte" value="Básquet">Basquet
-                            <input type="radio" name="deporte" value="Boxeo" >Boxeo
-                            <input type="radio" name="deporte" value="Fútbol" checked="checked">Fútbol
-                            <input type="radio" name="deporte" value="Tenis" >Tenis   
-                    
+                            <input type="radio" name="deporte" value="Boxeo" checked="checked">Boxeo
+                            <input type="radio" name="deporte" value="Fútbol">Fútbol
+                            <input type="radio" name="deporte" value="Tenis" >Tenis
+                            <h3>Sede Rosario:</h3> 
+                                <input type="radio" name="deporte" value="Básquet">Basquet
+                                <input type="radio" name="deporte" value="Boxeo" >Boxeo
+                                <input type="radio" name="deporte" value="Fútbol" checked="checked">Fútbol
+                                <input type="radio" name="deporte" value="Tenis" >Tenis   
+                    </fieldset>              
                 </form>
             </div>
            
     </main>
-   <footer>
+   <footer  class="footer">
         <label>
             <input type="checkbox">
             Acepto las condiciones*
@@ -77,9 +82,9 @@
             <label>
             <input type="checkbox">
             Deseo recibir novedades
-            </label><br>
-            *:campo obligatorio.<br>   
-        <input type="submit"> <input type="reset"> 
+            </label>
+            <label> *: campo obligatorio.</label>   
+        <input type="submit"  value="Iniciar Afiliación"> <input type="reset" > 
     </footer>
 </body>
 </html>
